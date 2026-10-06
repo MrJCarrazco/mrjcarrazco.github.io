@@ -1,0 +1,11 @@
+# Host-level robots.txt for mrjcarrazco.github.io
+# robots.txt is HOST-scoped (RFC 9309). A GitHub Pages PROJECT site served at
+# /<repo>/ cannot publish one: crawlers only ever fetch https://mrjcarrazco.github.io/robots.txt.
+# Before this file existed that URL returned 404, so every Sitemap: directive written
+# into a project-level robots.txt (e.g. /stackhonest/robots.txt) was at a path no crawler reads.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://mrjcarrazco.github.io/stackhonest/sitemap.xml
+Sitemap: https://mrjcarrazco.github.io/afivestar/sitemap.xml
