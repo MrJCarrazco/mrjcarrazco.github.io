@@ -9,3 +9,4 @@ Allow: /
 
 Sitemap: https://mrjcarrazco.github.io/stackhonest/sitemap.xml
 Sitemap: https://mrjcarrazco.github.io/afivestar/sitemap.xml
+Sitemap: https://mrjcarrazco.github.io/eog/sitemap.xml
